@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&family=Source+Serif+Pro:ital,wght@0,200;0,400;1,900&display=swap');
+
+:root {
+  --pretty-white: #eeeeee;
+  --natural: #fcdab7;
+  --salmon: #ed6363;
+  --light-obsidian: #3c6562;
+  --medium-obsidian: #00454a;
+  --dark-obsidian: #003545;
+}
+
+.navbar {
+  background-color: var(--dark-obsidian)
+}
+
+.navbar h1 {
+  font-family: 'Source Serif Pro';
+  color: var(--pretty-white);
+  font-weight: 900;
+  font-style: italic;
+  margin-top: 25px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--natural);
+  font-family: "Source Sans Pro";
+}
+
+.navbar .flex {
+  background-color: var(--grey-light);
+  color: var(--pretty-white);
+  flex-direction: column;
+}
+
+.navbar .flex nav ul {
+  flex-direction: row;
+}
+
+.navbar li {
+  list-style-type: none;
+  margin: 15px 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: var(--pretty-white)
+}
+
+.hero-image {
+  width: auto;
+  height: 100vh;
+  background-image: url(./images/coffee1.1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
